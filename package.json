@@ -4,12 +4,16 @@
   "description": "Trial project for Kvaba",
   "main": "index.js",
   "dependencies": {
-    "viber-bot": "^1.0.16"
+    "express": "^4.17.1",
+    "viber-bot": "^1.0.16",
+    "winston": "^3.3.3",
+    "winston-console-formatter": "^1.0.0-beta.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivanski1024/Kvaba.git"
