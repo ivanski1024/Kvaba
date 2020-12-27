@@ -4,8 +4,13 @@
   "description": "Trial project for Kvaba",
   "main": "src/index.js",
   "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongodb": "^3.6.2",
+    "moniker": "^0.1.2",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.8.4",
     "viber-bot": "^1.0.16",
     "winston": "^3.3.3",
     "winston-console-formatter": "^1.0.0-beta.3"
